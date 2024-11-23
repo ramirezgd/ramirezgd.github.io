@@ -981,54 +981,6 @@ The book begins with a review of classical results in the physical and engineeri
 	<p align="justify" id="RamirezSantamariaScharf-2024-Passivedetectionofrandomsignal-abstract" class="collapse"><small>This paper addresses the passive detection of a common rank-one subspace signal received in two multi-sensor arrays. We consider the case of a one-antenna transmitter sending a common Gaussian signal, independent Gaussian noises with arbitrary spatial covariance, and known channel subspaces. The detector derived in this paper is a generalized likelihood ratio (GLR) test. For all but one of the unknown parameters, it is possible to find closed-form maximum likelihood (ML) estimator functions. We can further compress the likelihood to only an unknown vector whose ML estimate requires maximizing a product of ratios in quadratic forms, which is carried out using a trust-region algorithm. We propose two approximations of the GLR that do not require any numerical optimization: one based on a sample-based estimator of the unknown parameter whose ML estimate cannot be obtained in closed-form, and one derived under low-SNR conditions. Notably, all the detectors are scale-invariant, and the approximations are functions of beamformed data. However, they are not GLRTs for data that has been pre-processed with a beamformer, a point that is elaborated in the paper. These detectors outperform previously published correlation detectors on simulated data, in many cases quite significantly. Moreover, performance results quantify the performance gains over detectors that assume only the dimension of the subspace to be known.</small></p>
 
 </li>
-<li><span style="text-align: justify; display:block;" id="XiaoRamirezHuang-2024-One-bittargetdetectionincollocated">Y.-H. Xiao, D. Ramírez, L. Huang, X.-P. Li, and H. C. So, “One-bit target detection in collocated MIMO radar with colored background noise,” <i>IEEE Trans. Signal Process. (To appear)</i>, 2024.</span>
-
-<div class="papers-links">
-
-<a data-toggle="collapse" href="#XiaoRamirezHuang-2024-One-bittargetdetectionincollocated-bibtex" class="link" data-title="BibTeX">
-    <svg class="iconpub icon-bibtex" style="width: 18px;height: 18px;"><use xlink:href="#icon-bibtex"></use></svg>
-</a>
-
-
-<a class="link" data-title="Abstract" data-toggle="collapse" href="#XiaoRamirezHuang-2024-One-bittargetdetectionincollocated-abstract">
-    <svg class="iconpub icon-abstract" style="width: 18px;height: 18px;"><use xlink:href="#icon-abstract"></use></svg>
-</a>
-
-
-
-
-
-
-
-<a class="link" data-title="arXiv" href="http://arxiv.org/abs/2403.06756">
-    <svg class="iconpub icon-arxiv" style="width: 18px;height: 18px;"><use xlink:href="#icon-arxiv"></use></svg>
-</a>
-
-
-
-<a class="link" data-title="PDF file" href="/assets/papers/R36_1_bit_detection_colored_noise.pdf">
-    <svg class="iconpub icon-pdf" style="width: 18px;height: 18px;"><use xlink:href="#icon-pdf"></use></svg>
-</a>
-
-
-
-</div>
-
-<pre id="XiaoRamirezHuang-2024-One-bittargetdetectionincollocated-bibtex" class="collapse"><small>@article{XiaoRamirezHuang-2024-One-bittargetdetectionincollocated,
-  arxiv = {2403.06756},
-  author = {Xiao, Y.-H. and Ram{\'i}rez, D. and Huang, L. and Li, X.-P. and So, H. C.},
-  issn = {1053-587X},
-  journal = {{IEEE} {T}rans.\ {S}ignal\ {P}rocess. (To appear)},
-  title = {One-bit target detection in collocated {MIMO} radar with colored background noise},
-  year = {2024},
-  local-url = {R36_1_bit_detection_colored_noise.pdf}
-}
-</small></pre>
-
-
-	<p align="justify" id="XiaoRamirezHuang-2024-One-bittargetdetectionincollocated-abstract" class="collapse"><small>One-bit sampling has emerged as a promising technique in multiple-input multiple-output (MIMO) radar systems due to its ability to significantly reduce data volume, hardware complexity, and power consumption. Nevertheless, current detection methods have not adequately addressed the impact of colored noise, which is frequently encountered in real scenarios. In this paper, we present a novel detection method that accounts for colored noise in MIMO radar systems. Specifically, we derive Rao’s test by computing the derivative of the likelihood function with respect to the target reflectivity parameter and the Fisher information matrix, resulting in a detector that takes the form of a weighted matched filter. To ensure constant false alarm rate (CFAR), we also consider noise covariance uncertainty and examine its effect on the probability of false alarm. The detection probability is also studied analytically. Simulation results demonstrate that the proposed detector provides considerable performance gains in the presence of colored noise.</small></p>
-
-</li>
 <li><span style="text-align: justify; display:block;" id="WuHuangRamirez-2024-One-bitspectrumsensingforcognitive">P.-W. Wu, L. Huang, D. Ramírez, Y.-H. Xiao, and H. C. So, “One-bit spectrum sensing for cognitive radio,” <i>IEEE Trans. Signal Process.</i>, vol. 72, pp. 549–564, 2024.</span>
 
 <div class="papers-links">
@@ -1087,6 +1039,61 @@ The book begins with a review of classical results in the physical and engineeri
 
 
 	<p align="justify" id="WuHuangRamirez-2024-One-bitspectrumsensingforcognitive-abstract" class="collapse"><small>Spectrum sensing for cognitive radio requires effective monitoring of wide bandwidths, which translates into high-rate sampling. Traditional spectrum sensing methods employing high-precision analog-to-digital converters (ADCs) result in increased power consumption and expensive hardware costs. In this paper, we explore blind spectrum sensing utilizing one-bit ADCs. We derive a closed-form detector based on Rao’s test and demonstrate its equivalence with the second-order eigenvalue-moment-ratio test. Furthermore, a near-exact distribution based on the moment-based method, and an approximate distribution in the low signal-to-noise ratio (SNR) regime based on the central limit theorem, are obtained. Theoretical analysis is then performed and our results show that the performance loss of the proposed detector is approximately 2 dB (\pi/2) compared to detectors employing ∞-bit ADCs when the SNR is low. This loss can be compensated for by using approximately 2.47 (\pi^2/4) times more samples. In addition, we unveil that the efficiency of incoherent accumulation in one-bit detection is the square root of that of coherent accumulation. Simulation results corroborate the correctness of our theoretical calculations.</small></p>
+
+</li>
+<li><span style="text-align: justify; display:block;" id="XiaoRamirezHuang-2024-One-bittargetdetectionincolocated">Y.-H. Xiao, D. Ramírez, L. Huang, X.-P. Li, and H. C. So, “One-bit target detection in colocated MIMO radar with colored background noise,” <i>IEEE Trans. Signal Process.</i>, vol. 72, pp. 5274–5290, 2024.</span>
+
+<div class="papers-links">
+
+<a data-toggle="collapse" href="#XiaoRamirezHuang-2024-One-bittargetdetectionincolocated-bibtex" class="link" data-title="BibTeX">
+    <svg class="iconpub icon-bibtex" style="width: 18px;height: 18px;"><use xlink:href="#icon-bibtex"></use></svg>
+</a>
+
+
+<a class="link" data-title="Abstract" data-toggle="collapse" href="#XiaoRamirezHuang-2024-One-bittargetdetectionincolocated-abstract">
+    <svg class="iconpub icon-abstract" style="width: 18px;height: 18px;"><use xlink:href="#icon-abstract"></use></svg>
+</a>
+
+
+
+<a class="link" data-title="DOI" href="https://doi.org/10.1109/TSP.2024.3484582">
+    <svg class="iconpub icon-doi" style="width: 18px;height: 18px;"><use xlink:href="#icon-doi"></use></svg>
+</a>
+
+
+
+
+
+<a class="link" data-title="arXiv" href="http://arxiv.org/abs/2403.06756">
+    <svg class="iconpub icon-arxiv" style="width: 18px;height: 18px;"><use xlink:href="#icon-arxiv"></use></svg>
+</a>
+
+
+
+<a class="link" data-title="PDF file" href="/assets/papers/R36_1_bit_detection_colored_noise.pdf">
+    <svg class="iconpub icon-pdf" style="width: 18px;height: 18px;"><use xlink:href="#icon-pdf"></use></svg>
+</a>
+
+
+
+</div>
+
+<pre id="XiaoRamirezHuang-2024-One-bittargetdetectionincolocated-bibtex" class="collapse"><small>@article{XiaoRamirezHuang-2024-One-bittargetdetectionincolocated,
+  arxiv = {2403.06756},
+  author = {Xiao, Y.-H. and Ram{\'i}rez, D. and Huang, L. and Li, X.-P. and So, H. C.},
+  doi = {10.1109/TSP.2024.3484582},
+  issn = {1053-587X},
+  journal = {{IEEE} {T}rans.\ {S}ignal\ {P}rocess.},
+  title = {One-bit target detection in colocated {MIMO} radar with colored background noise},
+  pages = {5274--5290},
+  volume = {72},
+  year = {2024},
+  local-url = {R36_1_bit_detection_colored_noise.pdf}
+}
+</small></pre>
+
+
+	<p align="justify" id="XiaoRamirezHuang-2024-One-bittargetdetectionincolocated-abstract" class="collapse"><small>One-bit sampling has emerged as a promising technique in multiple-input multiple-output (MIMO) radar systems due to its ability to significantly reduce data volume, hardware complexity, and power consumption. Nevertheless, current detection methods have not adequately addressed the impact of colored noise, which is frequently encountered in real scenarios. In this paper, we present a novel detection method that accounts for colored noise in MIMO radar systems. Specifically, we derive Rao’s test by computing the derivative of the likelihood function with respect to the target reflectivity parameter and the Fisher information matrix, resulting in a detector that takes the form of a weighted matched filter. To ensure constant false alarm rate (CFAR), we also consider noise covariance uncertainty and examine its effect on the probability of false alarm. The detection probability is also studied analytically. Simulation results demonstrate that the proposed detector provides considerable performance gains in the presence of colored noise.</small></p>
 
 </li>
 <li><span style="text-align: justify; display:block;" id="StantonRamirezSantamaria-2024-Multi-channelfactoranalysisIdentifiabilityand">G. Stanton, D. Ramírez, I. Santamaría, L. L. Scharf, and H. Wang, “Multi-channel factor analysis: Identifiability and asymptotics,” <i>IEEE Trans. Signal Process.</i>, vol. 72, pp. 3562–3577, 2024.</span>
